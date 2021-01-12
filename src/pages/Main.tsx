@@ -15,7 +15,6 @@ type propsTypes = {
   history:History
 }
 function Main(props : propsTypes) {
-  // Distpach 선언  
   const dispatch = useDispatch();
   
   const {orderList} = useSelector((state:RootState) => state.MainReducer);
@@ -121,49 +120,39 @@ function Main(props : propsTypes) {
       })
   }
 
-  // 렌더링에 관한 함수들
-  const rendering =() =>{
-    return (
-    <div className="mb-view">
-      <Header isLogin={isLogin} setIsLogin={setIsLogin}
-        changeDatesClickLogout={changeDatesClickLogout}
-        itemList={itemList} hopePrice={hopePrice} history={props.history}/>
-      <div className="content_inner">
-        {(dates.length===0||dates[0]==="")?
-        "":<Date 
-        dates={dates} 
-        nowdate={selectDate}
-        setNowdate={setSelectDate} 
-        todayOrder={todayOrder} 
-        setTodayOrder={setTodayOrder}/>}
-        {todayOderPick()}
-      </div>
-    </div>
-    )
-  }
-
-  const todayOderPick=()=>{
-    return (todayOrder) ? <OrderPage 
-    createItem={createItem} 
-    deleteItem={deleteItem}
-    upItemsUnit={upItemsUnit}
-    downItemsUnit={downItemsUnit}
-    changeItemsQuantity={changeItemsQuantity}
-    clickOrderButton={clickOrderButton}
-    setHopePrice={setHopePrice}
-    setisLogin={setIsLogin}
-    isLogin={isLogin}
-    itemList={itemList}
-  />:<PastOrders 
-    orderItemList={itemList}
-    itemList={(selectDate!=="")?orderList[selectDate]:[]}
-    createItem={createItem}
-    selectDate={selectDate}
-  />
-  }
   return (  
     <div id="wrap" className="Main-wrap">
-        {rendering()}
+        <div className="mb-view">
+          <Header isLogin={isLogin} setIsLogin={setIsLogin}
+            changeDatesClickLogout={changeDatesClickLogout}
+            itemList={itemList} hopePrice={hopePrice} history={props.history}/>
+          <div className="content_inner">
+            {(dates.length===0||dates[0]==="")?
+            "":<Date 
+            dates={dates} 
+            nowdate={selectDate}
+            setNowdate={setSelectDate} 
+            todayOrder={todayOrder} 
+            setTodayOrder={setTodayOrder}/>}
+            {(todayOrder) ? <OrderPage 
+              createItem={createItem} 
+              deleteItem={deleteItem}
+              upItemsUnit={upItemsUnit}
+              downItemsUnit={downItemsUnit}
+              changeItemsQuantity={changeItemsQuantity}
+              clickOrderButton={clickOrderButton}
+              setHopePrice={setHopePrice}
+              setisLogin={setIsLogin}
+              isLogin={isLogin}
+              itemList={itemList}
+            />:<PastOrders 
+              orderItemList={itemList}
+              itemList={(selectDate!=="")?orderList[selectDate]:[]}
+              createItem={createItem}
+              selectDate={selectDate}
+            />}
+          </div>
+        </div>
         {
           isLoading&&
           <Loading />
