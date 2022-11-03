@@ -7,13 +7,13 @@
 
 # 프로젝트 정보
   
-  [프로젝트 SR] 링크(https://velog.io/@oh_ji_0?tag=FinalProject#:~:text=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%5B%EC%98%A4%EB%8B%A4%EB%A7%A8%5D%20SR%20%EC%A0%95%EB%A6%AC)
+  [프로젝트 SR] [링크](https://velog.io/@oh_ji_0?tag=FinalProject#:~:text=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%5B%EC%98%A4%EB%8B%A4%EB%A7%A8%5D%20SR%20%EC%A0%95%EB%A6%AC)
   
-  [프로젝트 UI Design] 링크(https://velog.io/@oh_ji_0?tag=FinalProject#:~:text=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%5B%EC%98%A4%EB%8B%A4%EB%A7%A8%5D%20UI%20Design)
+  [프로젝트 UI Design] [링크](https://velog.io/@oh_ji_0?tag=FinalProject#:~:text=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%5B%EC%98%A4%EB%8B%A4%EB%A7%A8%5D%20UI%20Design)
   
-  [프로젝트 웹뷰] 링크(https://velog.io/@oh_ji_0/%ED%8C%8C%EC%9D%B4%EB%84%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%98%A4%EB%8B%A4%EB%A7%A8-Web-view)
+  [프로젝트 웹뷰] [링크](https://velog.io/@oh_ji_0/%ED%8C%8C%EC%9D%B4%EB%84%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%98%A4%EB%8B%A4%EB%A7%A8-Web-view)
   
-  [회고] bit.ly/3mFXfSL
+  [회고] [링크](bit.ly/3mFXfSL)
 
 # 팀원 정보 ( 2인 )
 - 오지영 ( ggomajae / elin-oh )  
